@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+    background-color:white;
+  }
+
+.i-b1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 56%;
+}
+
+.i-b2{
+    width: 56px;
+    height: 56px;
+    margin: 25px;
+    width:"100";
+    height:"100";
+
+}
+
+.logo{
+    width: 122px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: -53px;
+}
+
+.kutu{
+    width: 815px;
+    height: 35px;
+    background-color: white;
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:10px ;
+    margin-left: 22.5%;
+    margin-top: -55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kutukck{
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    flex-direction: row-reverse;
+}
+

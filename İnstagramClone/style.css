@@ -1,0 +1,31 @@
+
+
+.limg{
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 22px;
+}
+
+.limg.a1{
+    display: block;
+}
+
+
+
+@media (min-width:840px)
+{
+    .limg{
+        display: block;
+    }
+    .a1.limg{
+        display: none;
+    }
+    
+    
+}
+
+
+.opk{
+    opacity: 0.5;
+}
